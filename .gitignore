@@ -1,6 +1,7 @@
-.terraform/
+﻿.terraform/
 *.tfstate
 *.tfstate.*
 crash.log
 *.tfvars
 *.tfvars.json
+github-actions-trust-policy.json
