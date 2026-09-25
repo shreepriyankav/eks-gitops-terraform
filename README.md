@@ -425,3 +425,9 @@ Spring Boot Application
 ```
 
 The infrastructure is managed using Terraform, CI/CD authentication uses GitHub OIDC, and application deployments are synchronized from Git using Argo CD.
+
+<img width="1907" height="950" alt="image" src="https://github.com/user-attachments/assets/14fb5d4f-b8d9-4729-9e66-6388e0d8a6a2" />
+
+
+<img width="1856" height="407" alt="image" src="https://github.com/user-attachments/assets/8cb1ae76-9f68-4b6f-a328-304223ba41ae" />
+
