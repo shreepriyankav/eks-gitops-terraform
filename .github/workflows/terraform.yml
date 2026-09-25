@@ -40,3 +40,4 @@ jobs:
       - name: Terraform Validate
         working-directory: envs/dev
         run: terraform validate
+# OIDC authentication configured
