@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   terraform:
-    name: Terraform Validate
+    name: Terraform Validate and Plan
     runs-on: ubuntu-latest
 
     steps:
@@ -40,4 +40,9 @@ jobs:
       - name: Terraform Validate
         working-directory: envs/dev
         run: terraform validate
-# OIDC authentication configured
+
+      - name: Terraform Plan
+        working-directory: envs/dev
+        run: terraform plan
+
+      # OIDC authentication configured
