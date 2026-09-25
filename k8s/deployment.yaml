@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: eks-gitops-app
-          image: 825276341358.dkr.ecr.us-east-2.amazonaws.com/eks-gitops-app:1.0
+          image: 825276341358.dkr.ecr.us-east-2.amazonaws.com/eks-gitops-app:2.0
           ports:
             - containerPort: 8080
           resources:
